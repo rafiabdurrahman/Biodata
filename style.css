@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image:url('https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_960_720.jpg') ;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: whitesmoke;
+    width: 220px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.card-image{
+    background-color: violet;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.food-1{
+    background-image: url('https://awsimages.detik.net.id/community/media/visual/2018/07/03/5e96f7b0-bab3-440f-ae75-0445f94070a7.jpeg?a=1');
+}
+
+.food-2{
+    background-image: url('https://th.bing.com/th/id/R.43f3e06b5882ddd6108ee9db0aa126ed?rik=J4auJVpW6Q4lJg&riu=http%3a%2f%2ffs.genpi.co%2fuploads%2fnews%2fnormal%2f2019%2f02%2f07%2fb64426c25ba9b7f7cfd31bfbe3fadfd4.jpg&ehk=%2fHuXR1jRXzNmdtQIVuUkel08KOZ0qHof070T3Xtv9t4%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.food-3{
+    background-image: url('https://kulinerkota.com/wp-content/uploads/2020/09/HD-cireng-dari-akurat-.-co.jpg');
+}
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    display: block;
+    width: 100%;
+    text-align:center;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.card:hover{
+    background-color: red ;
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(130, 7, 245);
+    color: white;
+    height: 60px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo{
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: white;
+}
